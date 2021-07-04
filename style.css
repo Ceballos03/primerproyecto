@@ -1,0 +1,213 @@
+
+#index {
+    display: grid;
+    grid-template-areas:
+    "nav"
+    "header"
+    "footer";
+    grid-template-rows: 30px 480px auto;
+    grid-template-columns: 100%;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin: 1px;
+
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+body{
+    background-color: rgb(65, 40, 16);
+}
+
+.border {
+    border: 2px solid black;
+    /*background-color: rgb(201, 198, 198);*/
+    background-image: linear-gradient(rgb(126, 0, 0), rgb(255, 6, 6))
+}
+
+header{
+    grid-area: header;
+}
+
+.logo {
+    justify-self: start;
+}
+
+.titulo {
+    font-style: oblique;
+    /*display: inline;*/
+    font-size: 33px;
+}
+
+
+p{
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 17px;
+}
+
+
+footer {
+    grid-area: footer;
+}
+
+
+/* Menu */
+
+ul {
+	list-style: none;
+	font-size: 0 /* truco por el uso de inline-block */
+    
+}
+ li {
+	display: inline-block;
+	width: 15%;
+	position:relative;
+	font-size: 14px
+}
+
+ ul ul {
+	position: absolute;
+	display: none;
+ }
+ ul ul li {
+	display: block;
+ }
+ ul li:hover ul {
+	display:block;
+}
+
+li{
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+
+/* Solucion */
+
+#solucion {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+} 
+
+.titulo {
+    font-size: 40px;
+
+    transform: skewY(25deg);
+}
+
+.texto {
+    font-size: 20px;
+
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.cierre {
+    
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+/* Buscador */
+
+#buscador {
+    display: grid;
+    grid-template-areas:
+    "nav"
+    "header"
+    "footer";
+    grid-template-rows: 30px 480px auto;
+    grid-template-columns: 100%;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin: 1px;
+
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+
+/* Sujerencias */
+
+#sujerencias {
+    display: grid;
+    grid-template-areas:
+    "nav"
+    "header"
+    "footer";
+    grid-template-rows: 30px 480px auto;
+    grid-template-columns: 100%;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin: 1px;
+
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.tarea {
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+
+#personajes {
+    display: grid;
+    grid-template-areas:
+    "nav"
+    "header"
+    "footer";
+    grid-template-rows: 30px 480px auto;
+    grid-template-columns: 100%;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin: 1px;
+
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.tarea2 {
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+
+}
+
+#recomendado {
+    display: grid;
+    grid-template-areas:
+    "nav"
+    "header"
+    "footer";
+    grid-template-rows: 30px 2000px auto;
+    grid-template-columns: 100%;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin: 1px;
+
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
