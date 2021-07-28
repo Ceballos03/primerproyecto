@@ -1,30 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@600&display=swap" rel="stylesheet">
-    
-    <title>Personajes</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Mitos y Leyendas</title>
 </head>
 <body>
 
     <div id="personajes">
-
         <header class="border">
-            
-            <h1>Personajes</h1>
+            <ul class="menu">
+                <li class="seccion"><a href="index.html">Inico</a></li>
+                <li class="seccion"><a href="buscador.html">Buscador</a></li>
+                <li class="seccion"><a href="personajes.html">Personaje</a>
+                    <ul class="menu">
+                        <li class="seccion"><a href="">Subitem</a></li>                        
+                        <li class="seccion"><a href="">Subitem</a></li>
+                    </ul>
+                </li>
+                <li class="seccion"><a href="recomendado.html">Recomendado</a></li>
+                <li class="seccion"><a href="encuestas.html">Encuesta</a></li>
+            </ul> 
+        </header>
 
+        <main class="border">
+            <h1 class="titulo">Personajes</h1>
+        </main>
 
-            <table class="tarea2" border="1px" cellpading="100px">
+        <nav class="border">
 
+            <table class="tablaP" border="1px" cellpading="100px">
                 <tr><!-- inicio de la fila -->
-                    <td>Gilgamesh (esto seria un link)</td>
+                    <td><a href="links/KingArthur.html">Arturo Pendragon</a></td>
+
                     <td>Heracles (esto seria un link)</td>
-                    <td>Arturo Pendragon (esto seria un link)</td>
+                    <td>Gilgamesh (esto seria un link)</td>
                 </tr><!-- cierre de la fila -->
 
                 <tr><!-- inicio de otra fila -->
@@ -44,39 +56,18 @@
                     <td>Atalanta (esto seria un link)</td>
                     <td>Sirgifried (esto seria un link)</td>
                 </tr><!-- cierre de la ultia fila -->
-
             </table>
-        </header>
-
-       
-        <nav class="border"> <!--bloque 2: menu-->
-            <ul>
-                <li><a href="index.html">Inico</a></li>
-                <li><a href="buscador.html">Buscador</a></li>
-                <li><a href="personajes.html">Personaje</a>
-                        <ul>
-                        <li><a href="">Subitem</a></li>                        
-                        <li><a href="">Subitem</a></li>
-                    </ul>
-                </li>
-                <li><a href="recomendado.html">Recomendado</a></li>
-                <li><a href="encuestas.html">Encuesta</a></li>
-            </ul> 
         </nav>
-    
-    
+
         <footer class="border"> <!--bloque 3: pie de pagina-->
-            <p class="pie-de-pagina">Creada por Santiago Ceballos</p>
+            <p class="cierre">Creada por Santiago Ceballos</p>
     
-            <p class="pie-de-pagina">Correo electronico</p>
+            <p class="cierre">Correo electronico</p>
+            
     
-            <p class="pie-de-pagina">Gmail</p>
+            <p class="cierre">Gmail</p>
         </footer>
-
     </div>
-
 
 </body>
 </html>
-
-    <!--<table width="90%" border="2" cellpadding="3" cellspacing="3">-->

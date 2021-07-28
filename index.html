@@ -4,48 +4,76 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Mitos y Leyendas</title>
 </head>
 <body>
 
 <div id="index">
-    <header class="border"> <!--bloque 1: titulo-->
 
-        <table id="solucion">
-            <tr>
-                <td>
-                    <img class="logo" src="logo yggdrasil.png" alt="error" width="300px">
-                </td>
-
-                <td>
-                    <h1 class="titulo">Yggdrasil</h1>
-                </td>
-            </tr>
-        </table>
-
-        <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea tempora quae itaque accusantium consectetur sed ab vel cumque. Dolores, quaerat. Vero iste dolores laborum omnis delectus fugit quas ducimus corporis!</p>
-
-        <p>Lorem, ipsum.</p>
-
-
-
+    <header class="border">
+        <ul class="menu">
+            <li class="seccion"><a href="index.html">Inico</a></li>
+            <li class="seccion"><a href="buscador.html">Buscador</a></li>
+            <li class="seccion"><a href="personajes.html">Personaje</a>
+                <ul class="menu">
+                    <li class="seccion"><a href="">Subitem</a></li>                        
+                    <li class="seccion"><a href="">Subitem</a></li>
+                </ul>
+            </li>
+            <li class="seccion"><a href="recomendado.html">Recomendado</a></li>
+            <li class="seccion"><a href="encuestas.html">Encuesta</a></li>
+        </ul> 
     </header>
 
 
-    <nav class="border"> <!--bloque 2: menu-->
+    <main class="border">
+        <h1 class="titulo">Yggdrasil</h1>
+    </main>
+
+
+    <nav class="border">
         <ul>
-            <li><a href="index.html">Inico</a></li>
-            <li><a href="buscador.html">Buscador</a></li>
-            <li><a href="personajes.html">Personaje</a>
-                    <ul>
-                    <li><a href="">Subitem</a></li>                        
-                    <li><a href="">Subitem</a></li>
-                </ul>
+            <li>
+                <section class="border__mitos">
+                    <h2>Que son los mitos?</h2>
+            
+                    <p class="border__mitos--text">
+                        Los mitos conforman el sistema de creencias o cosmovisión de un pueblo o cultura, pues en ellos son vertidas las creencias con las cuales tradicionalmente este se ha explicado a sí mismo el origen y razón de todas las cosas. Por esta razón están ubicados fuera del tiempo histórico.
+                    </p>
+
+
+                    <p class="border__mitos--text">
+                        Considerados en su conjunto, los mitos configuran mitologías. De allí que existan distintas mitologías para cada cultura. Está la mitología grecorromana, la nórdica, la azteca, la maya, la inca o la china, entre muchas otras.
+                    </p>
+
+                    <p class="border__mitos--text">
+                        En la mitología griega, por ejemplo, el mundo comenzó con un vacío profundo llamado Caos. La Tierra (Gea) emergió espontáneamente del Caos y dio a luz al cielo (Urano). A partir de allí comenzó la llamada "era de los dioses", en la que son creadas las primeras deidades que son las que inician la civilización.
+                    </p>
+
+                    <p class="border__mitos--text">
+                        Por su parte, en la mitología maya existe una serie de relatos y mitos recopilados en el Popol Vuh, un libro que es considerado sagrado en dicha cultura. Allí se describe el surgimiento de los primeros dioses, la creación de los primeros hombres de madera, luego de barro y finalmente de maíz, que son los que comienzan a reproducirse y poblar el mundo.
+                    </p>
+                    
+                </section>
             </li>
-            <li><a href="recomendado.html">Recomendado</a></li>
-            <li><a href="encuestas.html">Encuesta</a></li>
-        </ul> 
+
+            <br>
+
+            <li>
+                <section class= "border__mitos">
+                    <h2>Que son las leyendas?</h2>
+            
+                    <p class="border__mitos--text">
+                        Las leyendas, por su parte, son también relatos que pueden incluir elementos fantásticos o maravillosos, pero suelen tener cierta base histórica más o menos reconocible, lo que, a diferencia del mito, le aporta cierta verosimilitud. Un ejemplo clásico de leyenda son las historias de Robin Hood.
+                    </p>
+
+                    <p class="border__mitos--text">
+                        Hoy en día, además, existe la leyenda urbana, se que basa en temas de conocimiento popular sobre cuyas razones o motivos se especula. Leyendas urbanas serían la de la congelación de Walt Disney o la investigación sobre vidas extraterrestres en el Área 51, en Estados Unidos.
+                    </p>
+                </section>
+            </li>
+        </ul>
     </nav>
 
 
@@ -53,12 +81,11 @@
         <p class="cierre">Creada por Santiago Ceballos</p>
 
         <p class="cierre">Correo electronico</p>
-        
 
-        <p class="cierre">Gmail</p>
+        <p class="pie-de-pagina">Gmail</p>
+        
     </footer>
 </div>
-
 
 </body>
 </html>

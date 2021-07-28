@@ -1,0 +1,43 @@
+.menu {
+    list-style: none;
+    font-size: 0;
+}
+ 
+.seccion {
+    display: inline-block;
+    width: 15%;
+    position:relative;
+    font-size: 14px
+}
+.menu .menu {
+    position: absolute;
+    display: none;
+}
+ 
+.menu .menu .seccion {
+    display: block;
+}
+ 
+.menu .seccion:hover .menu {
+    display:block;
+}
+ 
+.seccion{
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: blanchedalmond;
+    padding: 5px;
+}
+
+.menu a:hover {
+    background-color: blanchedalmond;
+    color: rgb(10, 0, 155);
+    padding: 5px;
+}
+

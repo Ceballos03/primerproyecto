@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
@@ -12,71 +12,65 @@
 </head>
 <body>
 
-    <div id="sujerencias">
+<div id="comentario">
+    <header class="border">
+        <ul class="menu">
+            <li class="seccion"><a href="index.html">Inico</a></li>
+            <li class="seccion"><a href="buscador.html">Buscador</a></li>
+            <li class="seccion"><a href="personajes.html">Personaje</a>
+                <ul class="menu">
+                    <li class="seccion"><a href="">Subitem</a></li>                        
+                    <li class="seccion"><a href="">Subitem</a></li>
+                </ul>
+            </li>
+            <li class="seccion"><a href="recomendado.html">Recomendado</a></li>
+            <li class="seccion"><a href="encuestas.html">Encuesta</a></li>
+        </ul> 
+    </header>
 
-        <header class="border">
-            <h1>Sujerencias</h1>
+    <main class="border">
+        <h1 class="titulo">Comparte tu opinion</h1>
+    </main>
 
-            <main class="tarea"> <!--bloque 2-->
-                <form action="">
-                    <fieldset>
-                        <legend>Danos tu opinion:</legend>
-                        <label for="nombreyapellido">Nombre y Apellido</label>
-                        <input type="text" name="nombreyapellido" maxlength="100" placeholder="ej: Juan Perez">
-                        <br>
-                        <br>
-                        <label for="Email">Email</label>
-                        <input type="Email" name="Email" placeholder="ej: JuanPerez@gmail.com">
-                        <br>
-                        <br>
-                        <label for="password">Contraseña</label>
-                        <input type="password">
-                        <br>
-                        <br>
-                        <select name="genero">
-                            <option value="femenino">femenino</option>
-                            <option value="masculino">masculino</option>
-                            <option value="otro">otro</option>
-                        </select>
-                        <br>
-                        <br>
-                        <textarea name="escribe aqui tus seugerencias" id="" cols="30" rows="10" placeholder="Leyenda Arturica"></textarea>
-                        <br>
-                        <div>Acepto los terminos de uso</div>
-                        <input type="checkbox" name="valor independiente" value="1">
-                        <input type="submit" name="submit" value="enviar">
-                        <input type="reset" name="reset" value="limpiar">
-                    </fieldset>
-                </form>
-            </main>
-        </header>
+    <nav class="border">
+        <form action="" class="mail">
+            <fieldset>
+                <legend class="mail__title">Danos tu opinion:</legend>
+                <label for="nombreyapellido" class="mail__title--ej">Nombre y Apellido</label>
+                <input type="text" name="nombreyapellido" maxlength="100" placeholder="ej: Juan Perez">
+                <br>
+                <br>
+                <label for="Email" class="mail__title--ej">Email</label>
+                <input type="Email" name="Email" placeholder="ej: JuanPerez@gmail.com">
+                <br>
+                <br>
+                <label for="password" class="mail__title--ej">Contraseña</label>
+                <input type="password">
+                <br>
+                <br>
+                <select name="genero">
+                    <option value="femenino">femenino</option>
+                    <option value="masculino">masculino</option>
+                    <option value="otro">otro</option>
+                </select>
+                <br>
+                <br>
+                <textarea name="escribe aqui tus seugerencias" id="" cols="30" rows="10" placeholder="Leyenda Arturica"></textarea>
+                <br>
+                <div>Acepto los terminos de uso</div>
+                <input type="checkbox" name="valor independiente" value="1">
+                <input type="submit" name="submit" value="enviar">
+                <input type="reset" name="reset" value="limpiar">
+            </fieldset>
+        </form>
+    </nav>
 
+    <footer class="border"> <!--bloque 3: pie de pagina-->
+        <p class="pie-de-pagina">Creada por Santiago Ceballos</p>
 
-        <nav class="border"> <!--bloque 2: menu-->
-            <ul>
-                <li><a href="index.html">Inico</a></li>
-                <li><a href="buscador.html">Buscador</a></li>
-                <li><a href="personajes.html">Personaje</a>
-                        <ul>
-                        <li><a href="">Subitem</a></li>                        
-                        <li><a href="">Subitem</a></li>
-                    </ul>
-                </li>
-                <li><a href="recomendado.html">Recomendado</a></li>
-                <li><a href="encuestas.html">Encuesta</a></li>
-            </ul> 
-        </nav>
-    
-    
-        <footer class="border"> <!--bloque 3: pie de pagina-->
-            <p class="pie-de-pagina">Creada por Santiago Ceballos</p>
-    
-            <p class="pie-de-pagina">Correo electronico</p>
-    
-            <p class="pie-de-pagina">Gmail</p>
-        </footer>
+        <p class="pie-de-pagina">Correo electronico</p>
 
-    </div>
-
-
+        <p class="pie-de-pagina">Gmail</p>
+    </footer>
+</div>
 </html>

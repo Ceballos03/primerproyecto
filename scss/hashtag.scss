@@ -1,0 +1,106 @@
+#index {
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    "nav"
+    "footer";
+    /*grid-template-rows: 40px 420px 130px;
+    grid-template-columns: 100% 1fr 35%;*/
+    
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin: 1px;
+ 
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+#buscador {
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    "nav"
+    "footer";
+    /*grid-template-rows: 40px 420px 130px;
+    grid-template-columns: 100% 1fr 35%;*/
+ 
+    grid-template-rows: auto auto 400px;
+    
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin: 1px;
+ 
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+#personajes {
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    "nav"
+    "footer";
+    /*grid-template-rows: 40px 420px 130px;
+    grid-template-columns: 100% 1fr 35%;*/
+ 
+    grid-template-rows: auto auto 400px;
+    
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin: 1px;
+ 
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+#recomendado {
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    "nav"
+    "footer";
+    /*grid-template-rows: 40px 420px 130px;
+    grid-template-columns: 100% 1fr 35%;*/
+ 
+    grid-template-rows: auto auto 1300px;
+    
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin: 1px;
+ 
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+ 
+ 
+/**/
+#comentario {
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    "nav"
+    "footer";
+    /*grid-template-rows: 40px 420px 130px;
+    grid-template-columns: 100% 1fr 35%;*/
+    grid-template-rows: auto auto 500px;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin: 1px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}

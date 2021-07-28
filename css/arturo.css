@@ -1,0 +1,117 @@
+#king {
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    "nav"
+    "footer";
+    /*grid-template-columns: ;
+    grid-template-rows: ;*/
+
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin: 1px;
+
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.border {
+    border: 2px solid black;
+}
+
+@media only screen and (max-width: 830px) and (min-width: 415px){
+    body{
+        background-color: red;
+    }
+}
+
+
+
+.border__seccion {
+    color: darkcyan;
+}
+
+.border__seccion--text {
+    color: black;
+}
+
+header {
+    background-color: rgb(109, 209, 248);
+}
+
+main {
+    background-image: linear-gradient(rgb(59, 145, 179), rgb(109, 209, 248));
+}
+
+nav{
+    background-color: rgb(211, 222, 235);
+}
+
+footer {
+    background-color: rgb(211, 222, 235);
+}
+
+h1 {
+    margin-right: 0;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    margin-left: 50px;
+}
+
+p{
+    font-size: 18px;
+
+    margin-right: 70px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.cierre {
+    font-size: 18px;
+
+    margin-right: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+body {
+    background-color: azure;
+}
+
+
+.menu {
+	list-style: none;
+	font-size: 0;
+}
+
+.seccion {
+	display: inline-block;
+	width: 15%;
+	position:relative;
+	font-size: 14px
+}
+
+.menu .menu {
+	position: absolute;
+	display: none;
+}
+
+.menu .menu .seccion {
+	display: block;
+}
+
+.menu .seccion:hover .menu {
+	display:block;
+}
+
+.seccion{
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
